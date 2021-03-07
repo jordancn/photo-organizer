@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    build: docker
+    command: /usr/local/lib/tail-and-wait
+    env_file:
+      - photo-organizer.env
+    volumes:
+      - .:/app
+      # Change /vault/PhotosTest to the location on of your photos
+      - /vault/PhotosTest:/Photos

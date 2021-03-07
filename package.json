@@ -1,0 +1,19 @@
+{
+  "name": "photo-organizer",
+  "version": "1.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/process.ts"
+  },
+  "dependencies": {
+    "@types/exif": "^0.6.0",
+    "@types/lodash": "^4.14.120",
+    "@types/moment": "^2.13.0",
+    "install": "^0.12.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "node-exiftool": "^2.3.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  }
+}
